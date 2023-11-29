@@ -184,3 +184,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.container-header {
+  max-width: 1440px;
+  height: 72px;
+}
+
+.navi {
+  flex-direction: row;
+}
