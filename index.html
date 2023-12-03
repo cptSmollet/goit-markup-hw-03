@@ -12,7 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -20,24 +19,29 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container-header">
-      <header>
-        <nav>
+    <header class="header-class">
+      <div class="container">
+        <nav class="neader-nav">
           <a class="logo" href="./index.html">
             Web<span class="logo-span">Studio</span></a
           >
-          <ul class="navi">
-            <li>
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
               <a href="./index.html" class="page-nav">Studio</a>
             </li>
-            <li><a href="" class="page-nav">Portfolio</a></li>
-            <li><a href="" class="page-nav">Contacts</a></li>
+            <li class="nav-menu-item">
+              <a href="" class="page-nav">Portfolio</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="" class="page-nav">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="contacts">
-          <ul>
+          <ul class="adress-list">
             <li>
               <a href="mailto:info@devstudio.com" class="contact-adrs"
                 >info@devstudio.com</a
@@ -50,8 +54,8 @@
             </li>
           </ul>
         </address>
-      </header>
-    </div>
+      </div>
+    </header>
 
     <main>
       <!-- Effective Solutions for Your Business -->

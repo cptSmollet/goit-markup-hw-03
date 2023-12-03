@@ -8,6 +8,32 @@ ul {
   list-style-type: none;
 }
 
+.header-class {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-menu-item {
+  padding: 24px 0;
+}
+
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -17,6 +43,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-span {
@@ -41,6 +68,7 @@ ul {
 
 .contacts {
   font-style: normal;
+  display: flex;
 }
 
 .contact-adrs {
@@ -48,6 +76,11 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.adress-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-adrs:hover {
@@ -183,13 +216,4 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.container-header {
-  max-width: 1440px;
-  height: 72px;
-}
-
-.navi {
-  flex-direction: row;
 }
