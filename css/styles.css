@@ -2,10 +2,23 @@ body {
   background: #fff;
   color: #434455;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul {
   list-style-type: none;
+}
+
+img {
+  display: block;
 }
 
 .header-class {
@@ -23,7 +36,8 @@ ul {
 }
 
 .nav-menu-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .container {
@@ -136,6 +150,15 @@ ul {
   padding-bottom: 120px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
 .company-menu {
   display: flex;
   gap: 24px;
@@ -151,7 +174,7 @@ ul {
 }
 
 .target-item {
-  width calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .company-targets-descr {
@@ -186,6 +209,7 @@ ul {
 .team-member {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .members-container {
@@ -199,6 +223,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .member-descr {
@@ -223,16 +248,22 @@ ul {
   margin-bottom: 72px;
 }
 
+.protfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-menu {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 48px;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-menu-item {
-
-}width: calc((100% - 3 * 24px);
+  width: calc((100% - 48px) / 3);
+}
 
 .portfolio-item {
   color: #2e2f42;
@@ -251,8 +282,8 @@ ul {
 
 .footer-class {
   background-color: #2e2f42;
-padding-top: 100px;
-padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-dark {
