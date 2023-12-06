@@ -35,11 +35,6 @@ img {
   gap: 40px;
 }
 
-.nav-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .container {
   display: flex;
   width: 1158px;
@@ -70,6 +65,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-nav:hover {
@@ -90,6 +87,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .adress-list {
@@ -174,7 +173,7 @@ img {
 }
 
 .target-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .company-targets-descr {
@@ -209,7 +208,7 @@ img {
 .team-member {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .members-container {
@@ -271,6 +270,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-descr {
